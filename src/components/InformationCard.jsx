@@ -7,8 +7,8 @@ export const InformationCard = (props) => {
         <p>Edad: {props.age}</p>
         <ul>
             {
-                props.hobbies.map((hobbie, index) => (
-                    <li key={index}>{hobbie}</li>
+              props.hobbies.map((hobbie, index) => (
+                <li key={index}>{hobbie}</li>
                 ))
             }
         </ul>
